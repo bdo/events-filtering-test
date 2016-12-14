@@ -1,3 +1,9 @@
 machine:
   node:
     version: 6.6.0
+
+test:
+  pre:
+    - npm start > start.log:
+        background: true
+    - while ! grep "bundle is now VALID" start.log; do echo waiting; sleep 1;  done

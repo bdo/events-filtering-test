@@ -1,10 +1,9 @@
 import 'chromedriver'
 import webdriver from 'selenium-webdriver'
 import chai from 'chai'
-import chaiWebdriver from 'chai-webdriver-promised'
 
 const driver = new webdriver.Builder().forBrowser('chrome').build();
-chai.use(chaiWebdriver(driver));
+
 global.expect = chai.expect;
 
 class World {

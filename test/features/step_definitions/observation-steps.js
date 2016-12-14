@@ -1,7 +1,8 @@
 export default function () {
 
   this.Then(/^I should see '(.*)'$/, async function (text) {
-    expect('body').dom.to.have.text(text)
+    const bodyText = await this.driver.findElement({css: 'body'}).getText();
+    expect(bodyText).to.contain(text);
   });
 
 };

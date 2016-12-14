@@ -1,0 +1,63 @@
+.event
+  display: table-row
+
+.event__cell
+  display: table-cell
+  vertical-align: top
+  padding: 10px 5px
+  border-bottom: 1px solid $mercury
+  +desktop
+    padding: 15px 10px
+
+.event__actor-and-date
+  width: 80px
+  +desktop
+    width: 100px
+
+.event__date
+  font-size: 80%
+  text-align: center
+
+.event__actor__image
+  width: 60px
+  +desktop
+    width: 80px
+
+.event__details
+  *:first-child
+    margin-top: 0
+
+  *:last-child
+    margin-bottom: 0
+
+  a
+    color: #4183C4
+    text-decoration: none
+    &:active, &:hover
+      outline-width: 0
+      color: #005b9e
+      text-decoration: underline
+
+  .link
+    display: block
+    margin-top: 5px
+
+  pre
+    margin: 0
+    padding: 16px
+    word-wrap: break-word
+    line-height: 1.45
+    background-color: #f7f7f7
+    border-radius: 4px
+
+  code
+    font-size: 85%
+    background-color: #f7f7f7
+    border-radius: 4px
+    padding: 5px
+
+  blockquote
+    padding: 0 1em
+    color: #777
+    border-left: 0.25em solid #ddd
+    margin: 0

@@ -1,0 +1,28 @@
+.filters
+  padding: 10px 15px 15px
+  background-color: $white-smoke
+  border-top: 1px solid $mercury
+  border-bottom: 1px solid $mercury
+  display: block
+  +desktop
+    display: flex
+
+.row
+  flex: 1
+
+.row + .row
+  margin: 10px 0 0
+  +desktop
+    margin: 0 0 0 10px
+
+label
+  display: block
+
+input
+  width: 100%
+
+.filters__url
+  min-width: 310px
+
+label:after
+  content: ':'

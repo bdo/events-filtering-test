@@ -1,4 +1,6 @@
-# The test
+# Events filtering test
+
+[![CircleCI](https://circleci.com/gh/bdo/events-filtering-test.svg?style=svg)](https://circleci.com/gh/bdo/events-filtering-test)
 
 - [x] Client side react page
 - [x] Written with React and Webpack

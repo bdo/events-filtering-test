@@ -33,19 +33,19 @@
     "chai-enzyme": "^0.6.1",
     "chai-webdriver-promised": "^4.0.3",
     "chromedriver": "^2.25.3",
-    "css-loader": "^0.26.1",
+    "css-loader": "^3.2.0",
     "cucumber": "^2.0.0-rc.2",
     "enzyme": "^2.6.0",
     "html-webpack-plugin": "^2.24.1",
     "json-loader": "^0.5.4",
-    "mocha": "^3.2.0",
+    "mocha": "^6.2.1",
     "node-sass": "^4.0.0",
     "react-addons-test-utils": "^15.4.1",
     "sass-loader": "^4.0.2",
     "selenium-webdriver": "^3.0.1",
     "sinon": "^1.17.6",
     "style-loader": "^0.13.1",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.8.2"
   }
 }
